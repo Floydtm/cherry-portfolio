@@ -30,7 +30,7 @@ class Cherry_Portfolio_Admin {
 		// Load post meta boxes on the post editing screen.
 		add_action( 'load-post.php',     array( $this, 'load_post_meta_boxes' ) );
 		add_action( 'load-post-new.php', array( $this, 'load_post_meta_boxes' ) );
-
+		
 		add_action( 'wp_ajax_get_new_format_metabox', array( $this, 'load_post_meta_boxes' ), 10 );
 
 		// Only run our customization on the 'edit.php' page in the admin.
