@@ -11,11 +11,11 @@
  */
 
 // If this file is called directly, abort.
-if ( !defined( 'WPINC' ) ) {
+if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-if( !class_exists( 'Cherry_Base_Update' ) ) {
+if ( !class_exists ( 'Cherry_Base_Update' ) ){
 
 	//define('CHERRY_UPDATE', false);
 	//define('CHERRY_ALPHA_UPDATE', true);
